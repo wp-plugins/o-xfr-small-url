@@ -39,13 +39,15 @@ class o_x_badge{
 
 
   function o_x_badge_do( $content ){
-  
-  	 $permalink = urlencode( get_permalink() );
+  // where is the plugin?
+	$o_x_plugin_place = PLUGINDIR.'/'.dirname(plugin_basename(__FILE__));
+	
+	$permalink = urlencode( get_permalink() );
 	 
-	 if ( !is_feed() ){
+	if ( !is_feed() ){
 	 
 	$badge = '<div class="o-x-badge">
-	<a href="http://o-x.fr/create.php?link='.$permalink.'" target="_blank" title="o-x.fr"><img src="http://o-x.fr/images/add.gif" alt="o-x.fr" /></a>
+	<a href="http://o-x.fr/create.php?link='.$permalink.'" target="_blank" title="o-x.fr"><img src="'.$o_x_plugin_place.'/add.gif" alt="o-x.fr" /></a>
 	</div>';
 	
 	 }
