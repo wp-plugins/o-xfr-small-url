@@ -40,7 +40,7 @@ class o_x_badge{
 
   function o_x_badge_do( $content ){
   // where is the plugin?
-	$o_x_plugin_place = PLUGINDIR.'/'.dirname(plugin_basename(__FILE__));
+	$o_x_plugin_place = get_bloginfo('url').'/'.PLUGINDIR.'/'.dirname(plugin_basename(__FILE__));
 	
 	$permalink = urlencode( get_permalink() );
 	 
