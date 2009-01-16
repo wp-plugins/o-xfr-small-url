@@ -4,7 +4,7 @@ Donate link: http://o-x.fr
 Tags: links,url 
 Requires at least: 2.4
 Tested up to: 2.7
-Stable tag: 0.8
+Stable tag: 0.8.1
 
 Help your readers to reduce your posts links sizes. It's like TinyUrl with stats.
 

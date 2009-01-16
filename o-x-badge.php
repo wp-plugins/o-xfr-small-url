@@ -3,12 +3,12 @@
 Plugin Name: o-x Badge
 Plugin URI: http://o-x.fr
 Description: Help your readers to reduce your posts links sizes. It's like TinyUrl with stats. Simply clic on Activate!
-Version: 0.8
+Version: 0.8.1
 Author: o-x
 Remake by: o-x.fr
 Author URI: http://o-x.fr
 
-Copyright 2007  o-x.fr  (email : infos@o-x.fr)
+Copyright 2009  o-x.fr  (email : infos@o-x.fr)
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation; either version 2 of the License, or
