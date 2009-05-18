@@ -1,7 +1,7 @@
 === Plugin Name ===
 Contributors: galluchot
 Donate link: http://o-x.fr
-Tags: links,url 
+Tags: links,url, buddypress 
 Requires at least: 2.4
 Tested up to: 2.7
 Stable tag: 0.8.1
